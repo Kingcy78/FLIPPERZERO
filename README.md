@@ -1,4 +1,6 @@
-TOOLS FLIPPERZERO BUY 100K 
+TOOLS  💃FLIPPERZERO BUY 100K 💃
+
+rm -rf FLIPPERZERO
 
 git clone https://github.com/Kingcy78/FLIPPERZERO
 
